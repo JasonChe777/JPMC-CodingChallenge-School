@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SchoolInfo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="school_list">School List</string>
+    <string name="school_list_score">SAT Score</string>
+    <string name="school_weblink">School Website:</string>
+    <string name="show_details">Show Details</string>
+    <string name="school_name">School Name:</string>
+</resources>

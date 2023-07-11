@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/boundary">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/satScoreToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boundary"
+            app:title="@string/school_list_score"
+            app:titleTextColor="#CBB26A"
+            android:minHeight="?attr/actionBarSize">
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <TextView
+        android:id="@+id/tvSchoolName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#CBB26A"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/appBarGrade"
+        tools:text="School Name" />
+
+    <TextView
+        android:id="@+id/tvNumTestTaker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#CBB26A"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tvSchoolName"
+        tools:text="Number of Test Taker" />
+
+    <TextView
+        android:id="@+id/tvReadingScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#CBB26A"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tvNumTestTaker"
+        tools:text="Reading Score" />
+
+    <TextView
+        android:id="@+id/tvMathScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#CBB26A"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tvReadingScore"
+        tools:text="Math Score" />
+
+    <TextView
+        android:id="@+id/tvWritingScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#CBB26A"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tvMathScore"
+        tools:text="Writing Score" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
