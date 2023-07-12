@@ -1,2 +1,2 @@
 # JPMC-CodingChallenge-School
-Simple Implementaion followed MVVM Achitecture Design Pattern in Kotlin
+The application is implemented using **Kotlin** followed with **MVVM** architecture design pattern.
