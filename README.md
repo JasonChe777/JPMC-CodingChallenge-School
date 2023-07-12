@@ -15,5 +15,5 @@ The application is implemented using **Kotlin** followed with **MVVM** architect
 ## Architecture
 This application uses [***MVVM (Model View ViewModel)***](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) architecture.
 
-## Video Demo
+## Video Demo :clapper:
 [device-2023-07-12-113728.webm](https://github.com/JasonChe777/JPMC-CodingChallenge-School/assets/107707771/854f7749-8075-4bc8-80ae-affd02e578b7)
