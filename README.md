@@ -12,6 +12,7 @@ The application is implemented using **Kotlin** followed with **MVVM** architect
 - [GSON Converter](https://github.com/square/retrofit/tree/master/retrofit-converters/gson) - A Converter which uses Gson for serialization to and from JSON.
 - [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android.
 - [Junit4](https://github.com/junit-team/junit4/wiki/Getting-started) - A simple framework to write repeatable tests.
+- [Mockito](https://site.mockito.org/) - Mockito is a mocking framework that lets you write beautiful tests with a clean & simple API.
 
 ## Architecture
 This application uses [***MVVM (Model View ViewModel)***](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) architecture.
