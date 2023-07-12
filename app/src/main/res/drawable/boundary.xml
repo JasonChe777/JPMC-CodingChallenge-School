@@ -10,7 +10,7 @@
             <stroke
                 android:width="4dp"
                 android:color="#CBB26A" />
-            <solid android:color="@color/black" />
+            <solid android:color="#501207" />
             <size android:height="50dp"/>
         </shape>
     </item>
